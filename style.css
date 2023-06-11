@@ -142,7 +142,7 @@ body {
 
 header h2 {
   position: absolute;
-  top: 2rem;
+  top: 2.5rem;
   left: 0;
   width: 100%;
   text-transform: uppercase;
@@ -150,10 +150,11 @@ header h2 {
 
 .index_contents {
   position: absolute;
-  bottom: 4rem;
+  bottom: 2.5rem;
   left: 50%;
-  width: 28rem;
+  width: 35vw;
   margin-left: -15rem;
+  line-height: 1.5;
 }
 
 .index_txt {

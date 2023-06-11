@@ -10,7 +10,7 @@ function draw() {
   scale(-1, 1);
   image(capture, -width, 0, windowWidth, windowHeight);
   filter(GRAY);
-  tint(255, 70);  
+  tint(255, 60);  
   let x1 = random(width);
   let y1 = random(height);
   let x2 = round(x1 + random(-80, 80));
