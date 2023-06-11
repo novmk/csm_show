@@ -116,11 +116,93 @@ canvas {
 .main_container {
 	position: relative;
 	width: 100vw;
+  height: 100vh;
 	text-align: center;
 	z-index: 100;
 }
 
+/* ---------- index ---------- */
 
+body { 
+  background: #000;
+}
+
+.index_img {
+  position: absolute;
+  top: 43%;
+  left: 50%;
+  width: 38rem;
+  transform: translate(-50%, -50%);
+}
+
+.index_img > img {
+  width: 100%;
+  height: auto;
+}
+
+header h2 {
+  position: absolute;
+  top: 2rem;
+  left: 0;
+  width: 100%;
+  text-transform: uppercase;
+}
+
+.index_contents {
+  position: absolute;
+  bottom: 4rem;
+  left: 50%;
+  width: 28rem;
+  margin-left: -15rem;
+}
+
+.index_txt {
+  font-size: 0.9rem;
+  text-align: center;
+  color: #fff;
+}
+
+.index_btn > a {
+  position: absolute;
+  top: 50%;
+  margin-top: -5rem;
+  font-size: 1.8rem;
+  font-weight: 200;
+  color: #555;
+  width: 10rem;
+  height: 10rem;
+  line-height: 10rem;
+  border-radius: 10rem;
+}
+
+.index_btn > a:hover {
+  color: #fff;
+  border: 1px solid #222;
+}
+
+.index_btn.left > a {
+  left: 2rem;
+}
+
+.index_btn.right > a {
+  right: 2rem;
+}
+
+.index_line {
+  position: absolute;
+  top: 50%;
+  width: 20vw;
+  height: 1px;
+  background: #222;
+}
+
+.index_line.left {
+  left: 10rem;
+}
+
+.index_line.right {
+  right: 10rem;
+}
     
 /* ---------- media query ---------- */
 
