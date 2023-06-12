@@ -1,37 +1,5 @@
 @charset “utf-8”;
 
-@font-face {
-    font-family: 'font_title';
-    font-style: normal;
-    font-weight: 400;
-    src: url('fonts/pvct.woff') format("woff"),
-         url('fonts/pvct.otf') format("otf");
-}
-
-@font-face {
-    font-family: 'font_title_i';
-    font-style: normal;
-    font-weight: 400;
-    src: url('fonts/pvct_i.woff') format("woff"),
-         url('fonts/pvct_i.otf') format("otf");
-}
-
-@font-face {
-    font-family: 'font_body';
-    font-style: normal;
-    font-weight: 400; 
-    src: url('fonts/si_book.woff2') format("woff2"), 
-         url('fonts/si_book.woff') format("woff");
-}
-
-@font-face {
-    font-family: 'font_body';
-    font-style: normal;
-    font-weight: 200; 
-    src: url('fonts/si_r.woff2') format("woff2"), 
-         url('fonts/si_r.woff') format("woff");
-}
-
 html {
 	font-size: 16px;
 }
@@ -65,8 +33,7 @@ h1, h2, h3, h4, h5, h6, b, strong {
 }
 
 body {
-	font-family: "font_body", "Helvetica Neue", "Helvetica", Helvetica, sans-serif;
-	font-size: 12px;
+	font-family: "Helvetica Neue", "Helvetica", Helvetica, sans-serif;
 	line-height: 1.25;
 /* 	background-image: linear-gradient(180deg, #9db5ff, #ffffff);*/
 /* 	background-attachment: fixed;*/
@@ -129,20 +96,20 @@ body {
 
 .index_img {
   position: absolute;
-  top: 43%;
+  top: 45.5%;
   left: 50%;
-  width: 38rem;
+  width: 42.5rem;
   transform: translate(-50%, -50%);
 }
 
-.index_img > img {
+.index_img > img, .exps > img {
   width: 100%;
   height: auto;
 }
 
 header h2 {
   position: absolute;
-  top: 2.5rem;
+  top: 2rem;
   left: 0;
   width: 100%;
   text-transform: uppercase;
@@ -153,7 +120,7 @@ header h2 {
   bottom: 2.5rem;
   left: 50%;
   width: 35vw;
-  margin-left: -15rem;
+  margin-left: -17.5rem;
   line-height: 1.5;
 }
 
@@ -167,18 +134,19 @@ header h2 {
   position: absolute;
   top: 50%;
   margin-top: -5rem;
-  font-size: 1.8rem;
+  font-size: 2.5rem;
   font-weight: 200;
-  color: #555;
+  color: #999;
   width: 10rem;
   height: 10rem;
   line-height: 10rem;
   border-radius: 10rem;
+  transition: all 0.5s;
 }
 
 .index_btn > a:hover {
+  font-size: 3rem;
   color: #fff;
-  border: 1px solid #222;
 }
 
 .index_btn.left > a {
@@ -192,19 +160,43 @@ header h2 {
 .index_line {
   position: absolute;
   top: 50%;
-  width: 20vw;
+  width: 18vw;
   height: 1px;
-  background: #222;
+  background: #444;
 }
 
 .index_line.left {
-  left: 10rem;
+  left: 11rem;
 }
 
 .index_line.right {
-  right: 10rem;
+  right: 11rem;
+}   
+
+.exps {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -30vh;
+  margin-left: -18vw;
+  width: 36vw;
+  height: 66vh;
+  color: #fff;
+  font-size: 0.9rem;
+  line-height: 1.5;
+} 
+
+.exps > h3 {
+  font-size: 2rem;
+  margin-top: 1rem;
 }
-    
+
+.exps > p {
+  margin-top: 1.5rem;
+  padding: 0 1rem;
+  color: #888;
+}
+
 /* ---------- media query ---------- */
 
 @media screen and (max-width:428px) and (orientation:portrait) {
