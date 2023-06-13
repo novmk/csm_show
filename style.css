@@ -113,14 +113,15 @@ header h2 {
   left: 0;
   width: 100%;
   text-transform: uppercase;
+  line-height: 1.4;
 }
 
 .index_contents {
   position: absolute;
   bottom: 2.5rem;
   left: 50%;
-  width: 35vw;
-  margin-left: -17.5rem;
+  width: 40rem;
+  margin-left: -20rem;
   line-height: 1.5;
 }
 
@@ -150,11 +151,11 @@ header h2 {
 }
 
 .index_btn.left > a {
-  left: 2rem;
+  left: 8rem;
 }
 
 .index_btn.right > a {
-  right: 2rem;
+  right: 8rem;
 }
 
 .index_line {
@@ -166,11 +167,11 @@ header h2 {
 }
 
 .index_line.left {
-  left: 11rem;
+  left: 17rem;
 }
 
 .index_line.right {
-  right: 11rem;
+  right: 17rem;
 }   
 
 .exps {
